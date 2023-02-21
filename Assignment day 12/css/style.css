@@ -1,0 +1,21 @@
+nav{
+    background-color: rgb(223, 219, 219);
+
+}
+navbar-nav img{
+    text-align: left;
+}
+navbar-nav{
+    margin-left: 200px;
+}
+.btn-primary{
+    background-color: orange;
+    color: brown;
+    border: none;
+}
+.btn-secondary{
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+}

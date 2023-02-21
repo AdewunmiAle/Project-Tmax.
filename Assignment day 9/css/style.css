@@ -1,0 +1,46 @@
+.navbar-brand img{
+    width: 50px;
+    
+}
+.login-icon{
+    color: white;
+}
+nav ul li{
+    padding: 0 10px;
+    color: white;
+}
+.dropdown-menu{
+    margin-left: 80%;
+    border: none;
+    color: red;
+}
+.dropdown-menu li a{
+    color: red;
+
+}
+dropdown-item:hover{
+    background-color: white;
+
+}
+@media (max-width: 579px){
+    .dropdown-menu{
+        margin-left: 65%;
+    }
+}
+nav{
+    background-color: black;
+
+}
+.drop{
+    color: white;
+}
+header{
+    width: 100%;
+    min-height: 700px;
+    background-color: aqua;
+    background: url(https://i0.wp.com/writetoreel.com/wp-content/uploads/2019/12/6-Underground-Movie-Review.jpg?fit=960%2C538&ssl=1);
+
+    
+}
+
+    

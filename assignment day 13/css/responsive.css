@@ -1,0 +1,90 @@
+@media (max-width: 579px){
+    .dropdown-menu{
+        margin-left: 65%;
+    }
+    header{
+        width: 100%;
+        min-height: 300px;
+        background-color: rgb(245, 245, 245);
+    }
+    .header-brand img{
+        margin-top: 100px;
+        padding-right: 10px;
+        background-color: transparent;
+    }
+    .jumbotron{
+        position: absolute;
+        top: 200px;
+        color: white;
+        margin-left: 500px;
+    }
+    .top-text{
+        color: black;
+        width: 120px;
+        margin-top: 10px;
+    }
+    .jumbotron h1{
+        font-size: 2em;
+        color:  rgb(245, 86, 28);
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .jumbotron h7{
+        color: rgb(48, 45, 45);
+        margin-bottom: 5px;
+        font-family:cursive;
+    
+    }
+    .btn-hero-btn-1{
+        background-color:  rgb(245, 86, 28);
+        border: none;
+        margin-top: 20px;
+        
+    }
+    .btn-hero-btn-1:hover{
+        background-color: black;
+    
+    }
+    .jumbotron span{
+        background-color:  rgb(245, 86, 28);
+        width: 300px;
+        height: 300px;
+        color: white;
+        margin-top: 100px;
+        padding-top: 20px;
+    }
+    .row span{
+        background-color:  rgb(245, 86, 28);
+        width: 300px;
+        height: 300px;
+        color: white;
+        margin-top: 100px;
+        padding-top: 20px;
+        
+    }
+    .row span box-2{
+        margin-bottom: 50px;
+        position: absolute;
+    }
+    
+    
+    .container h2{
+        margin-top: 30px;
+        
+    }
+    .btn-hero-btn-2{
+        background-color:  white;
+        border: none;
+        margin-top: 20px;
+        color:  rgb(245, 86, 28);
+        
+    }
+    .btn-hero-btn-2:hover{
+        background-color: black;
+    
+    }
+        
+    
+    
+    
+        
+}

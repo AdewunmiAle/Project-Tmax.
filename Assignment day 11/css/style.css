@@ -1,0 +1,96 @@
+.navbar-brand img{
+    width: 50px;
+    
+}
+.login-icon{
+    color: white;
+}
+nav ul li{
+    padding: 0 10px;
+    color: white;
+}
+.dropdown-menu{
+    margin-left: 80%;
+    border: none;
+    color: red;
+}
+.dropdown-menu li a{
+    color: red;
+
+}
+dropdown-item:hover{
+    background-color: white;
+
+}
+@media (max-width: 579px){
+    .dropdown-menu{
+        margin-left: 65%;
+    }
+}
+nav{
+    background-color: black;
+
+}
+.drop{
+    color: white;
+}
+header{
+    width: 100%;
+    min-height: 700px;
+    background-color: aqua;
+    background: url(https://cdn.mos.cms.futurecdn.net/kWUnNNpjxgHjxMRax96ucE.jpg);
+
+}
+.jumbotron{
+    position: absolute;
+    top: 200px;
+    color: white;
+}
+.top-text{
+    background-color: red;
+    width: 120px;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: -16px;
+}
+.jumbotron h1{
+    font-size: 6em;
+
+}
+.desc{
+    text-shadow: 0 0 3px black;
+}
+.btn-hero-btn-1{
+    background-color: red;
+    border: none;
+}
+.btn-hero-btn-1:hover{
+    background-color: black;
+}
+.btn-hero-btn-2{
+    background-color: blue;
+    width: 100px;
+    border: none;
+}
+.btn-hero-btn-2:hover{
+    background-color: black;
+}
+MAIN{
+    height: 250px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+.row-wrapper{
+    display: flex;
+    overflow-x: auto;
+    
+}
+.row-wrapper img{
+    width: 400px;
+    height: 200px;
+    padding: 0 10px;
+}
+
+
+    

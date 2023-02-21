@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: green;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    opacity: 0.7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all ease 0.5s ;
+}
+nav ul li a:hover{
+    color: black;
+    opacity: 1;
+}
+nav .social i{
+    margin: 20px;
+    font-size: 10px;
+    color: green;
+    text-decoration: none;
+    padding: 20px;
+    
+    
+    
+} 
+header{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    position: relative;
+    width: 100%;w
+}
+header .hero{
+    position: absolute;
+    left: 25%;
+    top: 70px;
+}
+header .hero h1{
+    font-size: 60px;
+    line-height: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+header .hero p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header .hero p:first-child{
+    color: red;
+    font-size: 20px;
+    position: relative;
+} 
+header .hero p:{
+    font-family: initial;
+    font-size: 20px;
+    position:absolute:
+}
+header .hero  .btn{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header .hero .btn:hover{
+    box-shadow: 0 0 3px grey;
+
+}
+main{
+    background-color: #ffff;
+    padding: 20px;
+    text-align: center;
+}
+main .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+main .row .items img{
+    width: 250px;
+    height: 250px;
+    transition: all ease-in 8.5s;
+}
+main .row .items img:hover{
+    transform: scale(1.1);
+}
+main .row .items h3{
+    font-size: 20px;
+    color: red;
+}
+main .row .items button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all linear 1s;
+}
+main .row .items button:hover{
+    background-color: grey;
+    box-shadow: 0 0 2px black;
+    padding: 20px;
+    text-align: center;
+}
+icon:hover{
+    animation: bounce; 
+    animation-duration: 2s;
+}
+#contact{
+    height: 300px;
+    background-color: rgb(75, 148, 75);
+    padding: 20px;
+    color: black;
+    font-size: 15px;
+
+}
+#contact .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact .row .left-side{
+    text-align: center;
+
+}
+#contact .row .right-side form{
+    padding: 5px;
+
+}
+#contact .row .right-side input{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    color: black;
+
+}
+#contact .row .right-side input :focus{
+    outline: none;
+
+}
+#contact .row .right-side button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#contact .row .right-side button:hover{
+    box-shadow: 0 0 5px black;
+}
+#social-media{
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+    color: green;
+
+
+}
+#social-media .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+#social-media .row .address{
+    text-align: center;
+    color: green;
+}
+
